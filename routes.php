@@ -2,7 +2,6 @@
 namespace App;
 use App\Controllers\UserController;
 
-
 $controller = new UserController();
 $uri = $_SERVER["REQUEST_URI"];
 
@@ -30,7 +29,6 @@ if ($_GET) {
     if ($action == 'edit' && isset($_GET['id'])) {
         $controller->showEditPage($_GET);
     }
-
 }
 
 if ($uri == '/users' || $uri == '/'){
