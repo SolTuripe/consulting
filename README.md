@@ -60,7 +60,7 @@ These instructions will allow you to get a working copy of the project on your l
 - Create a Config file following the Config.example
 
 <p align="center"> 
-  <img src="./Readme/Mockup/config.PNG" width=80%>
+  <img src="./Readme/Mockup/config.PNG" width=40%>
 </p>
 
 To find the project in production click here
