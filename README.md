@@ -70,26 +70,20 @@ To find the project in production click here
 Wireframe of how we think the screens and their functionalities should be
 
 <p align="center"> 
-  <img src="./Readme/wireframe/movil.png?raw=true" width=80%>
-  <img src="./Readme/wireframe/destopk.png?raw=true" width=100%>
+  <img src="./Readme/wireframe/movil.png?raw=true" width=50%>
+  <img src="./Readme/wireframe/destopk.png?raw=true" width=70%>
 </p>
 
 ## Desktop version 🚀
 
 <p align="center"> 
-  <img src="./Readme/Mockup/Landing1.png?raw=true" width=50%>
-</p>
-<p align="center"> 
-  <img src="./Readme/Mockup/Landing2.png?raw=true" width=50%>
-</p>
-<p align="center"> 
-  <img src="./Readme/Mockup/Landing3.png?raw=true" width=50%>
+  <img src="./Readme/Mockup/Landing1.png?raw=true" width=60%>
 </p>
 
 ## Mobile version 🚀
 
 <p align="center"> 
-  <img src="./Readme/Mockup/Movilfinal.png?raw=true" width=100%>
+  <img src="./Readme/Mockup/Movilfinal.png?raw=true" width=60%>
 </p>
 
 ## Technologies 💻
