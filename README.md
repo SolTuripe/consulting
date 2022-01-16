@@ -54,16 +54,12 @@ These instructions will allow you to get a working copy of the project on your l
 1. Clone git repository: https://github.com/SolTuripe/consulting.git
 2. Create a database in phpMyAdmin with the name: users
 3. Composer install and/or composer update
+4. $ composer require vlucas/phpdotenv (to create the environment variables)
 ```
-### Create a file in the project to be able to work with different operating systems:
+[For more information about PHP Dotenv, setting in environment variables, click here](https://github.com/vlucas/phpdotenv)
 
-- Create a Config file following the Config.example
 
-<p align="center"> 
-  <img src="./Readme/Mockup/config.PNG" width=40%>
-</p>
-
-To find the project in production click here
+[To find the project in production click here](https://crada-consulting.herokuapp.com/)
 
 ## Wireframe 🚀
 
