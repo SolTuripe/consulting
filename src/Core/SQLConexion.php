@@ -2,7 +2,10 @@
 
 namespace App\Core;
 use PDO;
-use PDOException;
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__.'./../../');
+$dotenv->load();
 
 class SQLConexion {
 
@@ -10,13 +13,12 @@ class SQLConexion {
     
 	public function __construct()
     {
-        $config = new Config();
-        $host = $config->host;
-        $user = $config->user;
-        $pass = $config->pass;
-        $database = $config->database;
+        $host = $_ENV["DATABASE_HOST"];
+        $user = $_ENV["DATABASE_USER"];
+        $pass = $_ENV["DATABASE_PASSWORD"];
+        $database = $_ENV["DATABASE_DB"];
         $charset = "utf-8";
         $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
-        $this->mysql = new PDO("mysql:host={$host}; dbname={$database}; charset{$charset}",$user, $pass, $options);
+        $this->mysql = new PDO("mysql:host={$host}; dbname={$database}; charset{$charset}", $user, $pass, $options);
     }
 }
