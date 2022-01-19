@@ -46,7 +46,7 @@ The objective is to develop a minimum viable product (MVP) in PHP, and we will t
 - Deploy the application to a production server
 - Development based on user stories and tasks (Kanban)
 
-## Starting 🚀
+## Starting ✨
 
 These instructions will allow you to get a working copy of the project on your local computer, for development and testing purposes:
 
@@ -58,8 +58,9 @@ These instructions will allow you to get a working copy of the project on your l
 ```
 [For more information about PHP Dotenv, setting in environment variables, click here](https://github.com/vlucas/phpdotenv)
 
+## Deploy with Heroku 💻
 
-[To find the project in production click here](https://crada-consulting.herokuapp.com/)
+https://crada-consulting.herokuapp.com/
 
 ## Wireframe 🚀
 
@@ -82,7 +83,7 @@ Wireframe of how we think the screens and their functionalities should be
   <img src="./Readme/Mockup/Movilfinal.png?raw=true" width=60%>
 </p>
 
-## Technologies 💻
+## Technologies 📋
 
 - PHP - Server scripting language
 - HTML - Markup language for Web pages
